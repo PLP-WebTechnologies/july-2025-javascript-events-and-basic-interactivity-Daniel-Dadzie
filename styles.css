@@ -1,0 +1,110 @@
+/* styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Events {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+ h2 {
+    color: #ed6810;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 2rem;
+    /* border-bottom: 2px solid black; */
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px 4px;
+    font-size: 1rem;
+
+}
+
+button {
+    background: greenyellow;
+    color: white;
+    font-size: 15px;
+    padding: 5px 7px;
+    border-radius: 7px;
+}
+
+
+#Interactive {
+     background-color: aliceblue;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+#toggle {
+    margin: 15px;
+}
+
+
+#validForm {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#submit {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: none;
+    margin-bottom: 7px;
+
+}
+
+section {
+ box-shadow: 3px 5px rgba(245, 218, 10, 0.1);
+}
+
+#dropmenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin-top: -14px;
+    border-radius: 5px;
+
+}
+
+#dropmenu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#dropmenu li a:hover {
+    background-color: #f1f1f1;
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
